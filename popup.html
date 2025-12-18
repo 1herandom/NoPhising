@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-area">
+                <div class="shield-icon"></div>
+                <h1>PhishShield</h1>
+            </div>
+        </header>
+
+        <main id="status-card" class="card">
+            <div class="url-section">
+                <span class="label">Current Website</span>
+                <p id="url-text">Analyzing...</p>
+            </div>
+
+            <div class="result-section">
+                <h2 id="risk-title">Scanning...</h2>
+                <p id="risk-desc">Initializing security protocols...</p>
+            </div>
+
+            <div class="meter-container">
+                <div class="meter-bg">
+                    <div id="meter-fill"></div>
+                </div>
+                <div class="meter-labels">
+                    <span>Safe</span>
+                    <span>Danger</span>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <button id="details-btn" class="secondary-btn">Check Domain Info</button>
+        </footer>
+    </div>
+    <script type="module" src="popup.js"></script>
+</body>
+</html>
