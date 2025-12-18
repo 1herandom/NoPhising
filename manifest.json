@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "NO Phishing",
+  "version": "1.0",
+  "description": "Scans URLs to identify whether it is a valid website or a phishing site.",
+  
+  "icons": {
+    "48": "icons.png"
+  },
+
+  "host_permissions": [
+  "https://*.rdap.org/*",
+  "https://*.verisign.com/*"
+],
+
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "notifications"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
