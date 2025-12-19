@@ -1,2 +1,2 @@
 # NoPhising
-a webextention to find weateher a website is a phising website or not 
+a web extention to find weateher a website is a phising website or not 
