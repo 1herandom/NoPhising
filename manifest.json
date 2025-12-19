@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": "3",
   "name": "NO Phishing",
   "version": "1.0",
   "description": "Scans URLs to identify whether it is a valid website or a phishing site.",
